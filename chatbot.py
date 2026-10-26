@@ -5,6 +5,8 @@ from openai import OpenAI
 # Load environment variables
 load_dotenv()
 
+DB_PASSWORD = "Demo-Hardcoded-Passw0rd-12345"
+
 # Create client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
