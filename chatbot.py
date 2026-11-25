@@ -5,6 +5,7 @@ from openai import OpenAI
 # Load environment variables
 load_dotenv()
 
+# LINEAJE BUILD-TIME VIOLATION AI_DAT_SEC_001: a secret is hardcoded here. Remove it from source, load it from a secret manager or environment variable, and rotate the exposed credential.
 DB_PASSWORD = "Demo-Hardcoded-Passw0rd-12345"
 
 # Create client
